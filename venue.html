@@ -4,7 +4,7 @@
 	<!-- Meta -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>NCECIC'19</title>
+	<title>NCICEC'19</title>
 	<!-- css -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="./css/home.css">
@@ -19,9 +19,54 @@
     }
     #title {
       margin-top:30px;
-      font-size: 3.5em;
-    }
 
+    }
+    .title kbd {
+    color: #00ffd4;
+
+     li{
+      list-style: none;
+      text-align: center;
+  }
+    }
+      .sub-text{
+      font-size: 1.2rem;
+    }
+    .container li:nth-child(1){
+      text-align: center;
+      font-weight: 500;
+      font-size: 2rem;
+
+    }
+    .navbar-dark .navbar-brand {
+      color: #00ffd4 !important;
+    }
+    #title{
+      margin-top: 20px;
+      color: #00ffd4;
+    }
+ .bg-dark {
+      background-color: #23232e !important;
+    }
+    .navbar-brand .navbar-dark{
+      color: #0AFFD9;
+    }
+    .jumbotron{
+      background-color: #23232e !important;
+    }
+    .lead{
+      color: white;
+			font-size: 25px;
+    }
+    .figure-caption {
+      color: #212529;
+    }
+    p{
+      color: #23232e;
+    }
+    h2{
+      color: #0affd9;
+    }
 </style>
 <body>
 
@@ -29,7 +74,7 @@
                                           <!-- NavBar -->
 
 	<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
-  <a class="navbar-brand" href="index.html">NCECIC'19</a>
+  <a class="navbar-brand" href="index.html">NCICEC'19</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -79,12 +124,24 @@
 
                                                  <!-- Hero Img -->
 
-                                                 <div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="text-center" id="title">NCECIC'19</h1>
-    <p class="lead text-center">26th National Conference on Internal Combustion Engines and Combustion</p>
-  </div>
+ <div class="jumbotron jumbotron-fluid">
+     <br><br>
+   <div class="container"><div class="row">
+<div class="col-md-2 col-xs-2">
+   <center>    <img src="assets/ciis2.png" width=100em></center></div>
+   <div class="col-md-8 col-xs-8" style="margin-top: -5%;">  <h1 class="display-2 text-center" id="title">NCICEC 2019</h1></div>
+
+<div class="col-md-2 col-xs-2"><center> <img src="assets/kkrlogo.png" width=100em></center> </div>
+
+   </div>
+   <div id="align-self-center">
+	   <center><p class="lead text-center"  style="font-size:1em; margin-bottom:-2em"><b><b>26th National Conference on Internal Combustion Engines and Combustion</b></b></p></center>
+
+			</div>
+    </div>
 </div>
+ </div>
+
 
                                                  <!-- Home Content -->
 <div class="container">
@@ -174,32 +231,24 @@ After the fall of Bhishma on 10th day of Mahabharata battle, Arjuna created here
 </div>
 </div>
 
-<!-- <div class="container">
-    <h1 class="title text-center"><kbd>Organised By</kbd></h1>
-    <ul class="text-center">
-      <li class="heading">NATIONAL INSTITUTE OF TECHNOLOGY KURUKSHETRA</li>
-      <li>In Association with </li>
-      <li class="sub-text"><span class="heading">Lorem ipsum dolor sit.</span></li>
-      <li class="sub-text">Lorem ipsum | Lorem ipsum | Lorem ipsum</li>
-    </ul>
 
-  </div> -->
-  <br><br>
   <div class="container">
-  <h1 class="title text-center"><kbd>ORGANISED BY</kbd></h1>
-  <ul class="text-center">
-    <li class="heading" style="list-style:none;"><h2>NATIONAL INSTITUTE OF TECHNOLOGY KURUKSHETRA</h2></li>
-    <li style="list-style:none;">In Association with </li>
-    <li class="sub-text" style="list-style:none;"><span class="heading">Lorem ipsum dolor sit.</span></li>
-    <li class="sub-text" style="list-style:none;">Lorem ipsum | Lorem ipsum | Lorem ipsum</li>
-  </ul>
+        <h4 class="title text-center"><kbd>ORGANISED BY</kbd></h4>
+        <ul class="text-center">
+          <li class="heading"><a href="http://www.nitkkr.ac.in/" style="cursor: pointer; color:#23232e;" target="_blank">NATIONAL INSTITUTE OF TECHNOLOGY KURUKSHETRA</a></li>
+          <li>In Association with </li>
+		  <li class="heading"><a href="https://www.combustioninstitute.org/" style="cursor: pointer; color:#23232e;"><h3>THE COMBUSTION INSTITUTE- INDIAN SECTION (CIIS)</h3></a></li>
 
-  </div>
+          <!--  <li class="sub-text"><span class="heading">Lorem ipsum dolor sit.</span></li> -->
+          <!--  <li class="sub-text">Lorem ipsum | Lorem ipsum | Lorem ipsum</li> -->
+        </ul>
+
+      </div>
 
 
 <footer>
 	<div class="footer">
-		<p class="text-center text-white">NCECIC'19 Copyrights &copy; 2019 </p>
+		<p class="text-center "style="color: #0AFFD9;">NCICEC'19 Copyrights &copy; 2019 </p>
 	</div>
 </footer>
 
